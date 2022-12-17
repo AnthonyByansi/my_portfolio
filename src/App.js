@@ -31,6 +31,7 @@ function App() {
           description="A simple christmas flyer design"
         />
       </div>
+      <Footer />
     </div>
   );
 }
