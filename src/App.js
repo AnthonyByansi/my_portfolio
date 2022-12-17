@@ -9,7 +9,9 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <AboutMe />
+      <AboutMe 
+        aboutMe={<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>}
+      />
       <h2>Projects</h2>
       <div className="project-grid">
         <ProjectCard 
